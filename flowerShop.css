@@ -1,0 +1,87 @@
+/* 控制整个页面的div */
+.whole{
+   background-color: rgb(238, 238, 238);
+}
+
+.wholeDiv{
+    width: 980px; 
+	margin: 0 auto; 
+}
+
+/* 大标题 */
+.title{
+     text-align: center;
+     font-size: 30px;
+     color: grey;
+     margin-bottom: 20px;
+}
+/* 小标题 */
+.title2{
+    font-size: 20px;
+}
+
+/* 商品分类标题 */
+.title3{
+    color: gray;
+}
+/* 文艺语句 */
+.sentence{
+    color: grey;
+    text-align: center;
+    font-family:'KaiTi';
+ 
+}
+.border{
+    border: 1px solid;
+    color: grey;
+}
+
+/* 新品热卖特价 */
+.sell{
+    text-align: center;    
+}
+/* 多肉植物介绍 */
+.introduction{
+    width:600px;
+    color: grey;
+    margin: 0 auto;
+    font-family:'KaiTi';
+
+
+
+}
+
+/* 品质保证  */
+.sure{
+    text-align: center;
+    color: grey;
+    font-weight:bold;
+}
+/* 店主信息 */
+/* 因为子元素设置了浮动，为了避免取消背景颜色，故关闭浮动 */
+.info0{
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+   
+
+}
+
+.info{
+    width:100px;
+    float: left;
+}
+.info2{
+    width:480px;
+    float: left;
+    color: grey;
+    margin-left: 20px;
+}
+.info3{
+    width:480px;
+    float: left;
+    color: grey;
+    font-size: 13px;
+    margin-left: 20px;
+
+}
